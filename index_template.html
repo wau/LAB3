@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB3 Diogo Catarino</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index_template.html">Uber Mips</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"></path></svg><!-- <i class="fas fa-bars"></i> Font Awesome fontawesome.com -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1 active"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="login_template.html">Login</a></li>
+                    <li class="nav-item mx-0 mx-lg-1 active"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="register_template.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="carouselID" class="carousel slide mb-5" data-bs-ride="carousel"">
+        <!-- Indicators/dots -->
+        <!-- <ol class="carousel-indicators">
+            <li data-target="#model" data-slide-to="0" class="active"></li>
+            <li data-target="#modal" data-slide-to="1"></li>
+        </ol> -->
+
+        <div class = "carousel-indicators">
+            <button type="button" data-bs-target="#carouselID" data-bs-slide-to="0" class="" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselID" data-bs-slide-to="1" class="active"></button>
+        </div>
+        
+
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner" ">
+            <div class="carousel-item">
+                <img src="images/mips_protection.jpg" height="450" alt="Mips protection" class="d-block w-100">
+            </div>
+            <div class="carousel-item active">
+                <img src="images/uber_mips.jpeg" height="450" alt="Uber Mips" class="d-block w-100">
+            </div>
+        </div>
+
+        
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="max-width: 20rem; max-height: 15rem;">
+                        <img class="card-img-top" src="images/Slavinga.jpeg" alt="Slavinga">
+    
+                        <div class="card-body"> 
+                            <h5 class="card-title">Slavinga</h5>
+                            <h6 style= "font-style: italic;" class="card-text">Author: Peter Warrior</h6>
+                            <h6 style= "font-style: italic; color: grey;" class="card-text"> Updated at 2022-10-05</h6>
+                            <p class="card-text">Description here</p>
+                            
+                            <a href="#" class="card-link">Edit Post</a>
+                        </div>
+                    </div>
+                 </div>
+    
+                 <div class="col">
+                    <div class="card" style="max-width: 20rem; max-height: 15rem;">
+                        <img class="card-img-top" src="images/velha.jpeg" alt="Velha">
+    
+                        <div class="card-body"> 
+                            <h5 class="card-title">Diana White</h5>
+                            <h6 style= "font-style: italic;" class="card-text">Author: Peter Warrior</h6>
+                            <h6 style= "font-style: italic; color: grey;" class="card-text"> Updated at 2022-10-06</h6>
+                            <p class="card-text">Description here</p>
+                            
+                            <a href="#" class="card-link">Edit Post</a>
+                        </div>
+                    </div>
+                 </div>
+    
+            </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselID" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselID" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+  <!---  <footer class="footer sbg-light text-center text-lg-start fixed-bottom">
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022: Diogo Catarino
+          </div>
+       
+    </footer> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
